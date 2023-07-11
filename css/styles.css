@@ -81,6 +81,9 @@ a{
     margin: 0 auto;
     height: 600px;
 }
+
+
+
 .part-one .main-title{
     font-size: 56px;
     color: #ffffff;
@@ -114,6 +117,24 @@ a{
     background-color: #404BBF;
     cursor: pointer;
 }
+
+/* Table */
+
+@media (min-width: 767px) and (max-width: 1157px) {
+        .part-one{
+            background-color: #2E2F42;
+            padding-top: 112px; 
+            padding-bottom: 96px;
+            background-image: linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)),url(../images/hero-image/people-office.jpg);
+            max-width: 768px;
+            background-repeat: no-repeat;
+            background-position: center;
+            background-size: 768px 436px;
+            margin: 0 auto;
+            height: 436px;
+        }
+}
+
 
 .part-two{
     padding-top: 120px; 
@@ -168,6 +189,8 @@ margin-bottom: 8px;
     font-weight: 400;
 }
 
+
+
 .team{
     background-color: #F4F4FD;
     padding-top: 120px;
@@ -190,11 +213,63 @@ margin-bottom: 8px;
     gap: 24px;
 }
 
+@media (min-width: 767px) and (max-width: 1157px) {
+    .part-two{
+        padding-top: 90px;
+        padding-bottom: 90px;
+    }
+    
+    .list-two{
+        display: flex;
+        flex-wrap: wrap;
+        column-gap: 24px;
+        row-gap: 72px;
+       
+    }
+    
+    .icon-container{
+        position: absolute;
+        width: 1px;
+        height: 1px;
+        margin: -1px;
+        border: 0;
+        padding: 0;
+        white-space: nowrap;
+        clip-path: inset(100%);
+        clip: rect(0 0 0 0);
+        overflow: hidden;
+    }
+
+    .part-two-title{
+        font-family: Roboto;
+        font-size: 36px;
+        font-weight: 700;
+        line-height: 40px;
+        letter-spacing: 0.02em;
+        
+   }
+
+   .part-two-text{
+    font-family: Roboto;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 24px;
+    letter-spacing: 0.02em;
+    width: 356px;
+    height: 72px;
+   }
+
+   .list-part{
+    width: calc((100% - 24px) / 2);
+   }
+}
+
 .list-three{
     list-style-type: none;
     display: flex;
     gap: 24px;
 }
+
 .list-four{
     list-style-type: none;
     display: flex;
@@ -292,7 +367,10 @@ margin-bottom: 8px;
 .address-header{
     font-style: normal;
     margin-left: auto;
+    
 }
+
+
 
 
 .address{
@@ -301,7 +379,7 @@ margin-bottom: 8px;
     letter-spacing: 0.02em;
     color: var(--address-color);
     transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
-
+    display: flex;
 }
 
 
@@ -362,6 +440,7 @@ margin-bottom: 8px;
     box-shadow: 0px 2px 1px rgba(46, 47, 66, 0.08), 0px 1px 1px rgba(46, 47, 66, 0.16), 0px 1px 6px rgba(46, 47, 66, 0.08);
 }
 
+
 .block-header{
     display: flex ;
     align-items: center;
@@ -369,11 +448,47 @@ margin-bottom: 8px;
 
 .container{
     width: 1158px;
-    margin: 0 auto;
-    padding-left: 15px;
-    padding-right: 15px;
+   margin: 0 auto;
+   padding-left: 15px;
+   padding-right: 15px;
 }
 
+
+/* Table */
+ @media (min-width: 767px) and (max-width: 1157px){
+    .container {
+        max-width: 758px;
+        padding-left: 32px;
+        padding-right: 32px;
+      }
+      .address {
+        font-size: 12px;
+      }
+
+      .fl{
+        display: flex;
+        flex-direction: column;
+        padding-top: 16px;
+        padding-bottom: 16px;
+        gap: 12px;
+        padding-right: 16px;
+        padding-left: 121px;
+        font-size: 12px;
+      }
+} 
+
+  /* Phone */
+
+@media screen and (max-width: 428px) {
+    .container{
+        max-width: 428px;
+        margin-left: auto;
+        margin-right: auto;
+        padding-left: 20px;
+        padding-right: 20px;
+       
+    }
+}
 .nav{
     display: flex;
     align-items: center;
@@ -384,11 +499,26 @@ margin-bottom: 8px;
     gap: 40px;
 
 }
-
 .part-three{
     padding-bottom: 120px;
 }
 
+
+@media (min-width: 767px) and (max-width: 1157px) {
+    .part-three{
+        position: absolute;
+        width: 1px;
+        height: 1px;
+        margin: -1px;
+        border: 0;
+        padding: 0;
+        white-space: nowrap;
+        clip-path: inset(100%);
+        clip: rect(0 0 0 0);
+        overflow: hidden;
+    }
+    
+}
 .workers{
     
     padding: 32px 0;
@@ -915,3 +1045,4 @@ input::placeholder{
     margin-right: 91px;
     
 }
+
