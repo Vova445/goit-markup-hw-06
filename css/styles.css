@@ -477,18 +477,7 @@ margin-bottom: 8px;
       }
 } 
 
-  /* Phone */
 
-@media screen and (max-width: 428px) {
-    .container{
-        max-width: 428px;
-        margin-left: auto;
-        margin-right: auto;
-        padding-left: 20px;
-        padding-right: 20px;
-       
-    }
-}
 .nav{
     display: flex;
     align-items: center;
