@@ -614,7 +614,7 @@ margin-bottom: 8px;
     letter-spacing: 0.02em;
     line-height: 1.5;
     font-weight: 400;
-    max-width: 264px;
+    max-width: 268px;
     margin-left: auto ;
     margin-right: auto;
 }
@@ -954,7 +954,10 @@ margin-bottom: 8px;
             flex-wrap: wrap;
 
         }
-
+        .form-footer{
+            display: flex;
+            gap: 24px;
+        }
    
 
         .footer-logo-p-div{
@@ -974,6 +977,7 @@ margin-bottom: 8px;
 
        .footer-p{
         width: 264px;
+        font-weight: 400;
        }
 }
 
@@ -982,11 +986,12 @@ margin-bottom: 8px;
     .footer-div{
         display: flex;
         flex-wrap: wrap;
-        margin-top: 97.5px;
+       
     }
     .link-footer{
-        margin-bottom: 17.5px;
-        
+       display: flex;
+       justify-content: center;
+        margin-right: 20px;
         
     }
 
@@ -997,27 +1002,44 @@ margin-bottom: 8px;
     }
     
     .social-media-footer-p{
-       
-       padding-bottom: 16px;
+      display: flex;
+       justify-content: center;
       
     }
-   .form-footer-block{
-        margin-top: 72px;
-        display: flex;
-        flex-wrap: wrap;
-        row-gap: 16px;
-   }
-
-
-
-   .form-footer{
-   
-    flex-direction: column;
     
+   .form-footer-block{
+      
+       text-align: center;
+       margin: 0 auto;
    }
 
 
+.footer-ul-social-media{
+    margin-bottom : 72px;
+    margin-left: 110px;
+    margin-right: 110px;
+}
+   .form-footer{
+   display: flex;
+    flex-direction: column;
+    gap: 16px;
+    align-items: center;
+   
+   }
 
+   .footer-input-email{
+    width: 398px;
+    height: 40px;
+    border: 1px solid #fff;
+    background-color: transparent;
+    font-size: 12px;
+    line-height: 1.5;
+    letter-spacing: 0.04em;
+    padding-left: 16px;
+    filter: drop-shadow(0px 4px 4px rgba(0,0,0,0.15));
+    border-radius: 4px;
+    color: #FFFFFF;
+}
 
 
    .footer-p{
@@ -1187,13 +1209,17 @@ margin-bottom: 8px;
     color:#fff;
 }
 
-.form-footer{
-    display: flex;
-}
+@media screen and (min-width: 1158px) {
+    
 
 .form-footer{
+    display: flex;
     gap: 24px;
 }
+}
+
+@media screen and (min-width: 757px){
+    
 
 .footer-input-email{
     width: 264px;
@@ -1208,7 +1234,7 @@ margin-bottom: 8px;
     border-radius: 4px;
     color: #FFFFFF;
 }
-
+}
 input::placeholder{
     color: #FFFFFF;
 }
