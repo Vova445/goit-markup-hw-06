@@ -145,6 +145,32 @@ a{
         }
 }
 
+@media(min-width: 320px) and (max-width: 767px){
+    .part-one{
+           
+        background-color: #2E2F42;
+        background-image: linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)),url(../images/hero-image/people-office.jpg);
+        max-width: 428px;
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: 428px 432px;
+        margin: 0 auto;
+        max-height: 432px;
+        padding-top: 112px;
+    }    
+    
+    .part-one .main-title{
+           
+            font-size: 36px;
+            font-weight: 700;
+            line-height: 40px;
+            letter-spacing: 0.02em;
+            text-align: center;
+            padding-bottom: 72px;
+            
+        }
+}
+
 
 .part-two{
     padding-top: 120px; 
@@ -278,6 +304,53 @@ margin-bottom: 8px;
 }
 
 
+@media (min-width: 320px) and (max-width: 767px) {
+        .icon-container{
+            position: absolute;
+            width: 1px;
+            height: 1px;
+            margin: -1px;
+            border: 0;
+            padding: 0;
+            white-space: nowrap;
+            clip-path: inset(100%);
+            clip: rect(0 0 0 0);
+            overflow: hidden;
+    }
+    .part-two{
+        padding-top: 96px;
+        padding-bottom: 96px;
+    }
+
+    .list-two{
+        display: flex;
+        flex-wrap: wrap;
+        row-gap: 72px;
+    
+        padding-right: 16px;
+    }
+    .part-two-title{
+        font-size: 36px;
+        font-weight: 700;
+        line-height: 40px;
+        letter-spacing: 0.72px;
+        text-align: center;
+        width: 396px;
+        
+   }
+
+   .part-two-text{
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 24px;
+    letter-spacing: 0.02em;
+    text-align: left;
+    width: 396px;
+    
+   }
+
+}
+
 @media (min-width: 767px) and (max-width: 1157px) {
     .list-four{
         display: flex;
@@ -298,6 +371,32 @@ margin-bottom: 8px;
     }
     
 }
+
+
+@media (min-width: 320px) and (max-width: 767px){
+    .list-four{
+        display: flex;
+        flex-wrap: wrap;
+        row-gap: 72px;
+        padding-left: 82px;
+        padding-right: 82px;
+        justify-content: space-around;
+    }
+    .networks-links{
+        margin-top: 8px;
+       }
+
+       .section-title-four{
+        font-family: Roboto;
+        font-size: 36px;
+        font-weight: 700;
+        line-height: 40px;
+        letter-spacing: 0.02em;
+        text-align: center;
+      
+       }
+ 
+}
 .list-three{
     list-style-type: none;
     display: flex;
@@ -307,7 +406,7 @@ margin-bottom: 8px;
 .list-four{
     list-style-type: none;
     display: flex;
-    gap: 24px;
+    column-gap: 24px;
 }
 .list-portfolio-one{
     list-style-type: none;
@@ -326,7 +425,7 @@ margin-bottom: 8px;
 }
 
 
-@media (min-width: 768px) and (max-width: 1157px) {
+@media (min-width: 767px) and (max-width: 1157px) {
     .list-portfolio-two{
         row-gap: 72px;
     }
@@ -345,6 +444,7 @@ margin-bottom: 8px;
         margin-top: 40px;
         padding-left: 32px;
         width: 296px;
+
     }
 }
 
@@ -393,6 +493,25 @@ margin-bottom: 8px;
         margin-bottom: 96px;
         text-align: center;
     }
+}
+
+
+@media (min-width: 320px) and (max-width: 767px){
+    .clients{
+        display: flex;
+        flex-wrap: wrap;
+        row-gap: 72px;
+        padding-left: 16px;
+        padding-right: 16px;
+        margin-bottom: 96px;
+    }
+    .list-part-five{
+        width: calc((100% - 72px) / 2);
+        height: 88px;
+        margin: auto;
+    }
+
+
 }
 .li-one{
     background-color: #FFFFFF;
@@ -543,10 +662,10 @@ margin-bottom: 8px;
 }
 
 .container{
-    width: 1158px;
+    max-width: 1168px;
    margin: 0 auto;
-   padding-left: 15px;
-   padding-right: 15px;
+   padding-left: 16px;
+   padding-right: 16px;
 }
 
 
@@ -572,6 +691,49 @@ margin-bottom: 8px;
         font-size: 12px;
       }
 } 
+
+
+@media (min-width: 320px) and (max-width: 767px){
+    .container{
+        min-width: 320px;
+        max-width: 767px;
+        padding-left: 12px;
+        padding-right: 12px;
+        margin-left: auto ;
+        margin-right: auto;
+    }
+    .address-header{
+        position: absolute;
+        width: 1px;
+        height: 1px;
+        margin: -1px;
+        border: 0;
+        padding: 0;
+        white-space: nowrap;
+        clip-path: inset(100%);
+        clip: rect(0 0 0 0);
+        overflow: hidden;
+    }
+    .menu{
+        position: absolute;
+        width: 1px;
+        height: 1px;
+        margin: -1px;
+        border: 0;
+        padding: 0;
+        white-space: nowrap;
+        clip-path: inset(100%);
+        clip: rect(0 0 0 0);
+        overflow: hidden;
+    }
+
+    .logo{
+        margin-top: 24px;
+        margin-left: 16px ;
+        margin-bottom: 22px;
+    }
+
+}
 
 
 .nav{
@@ -603,6 +765,21 @@ margin-bottom: 8px;
         overflow: hidden;
     }
     
+}
+
+@media (min-width: 320px) and (max-width: 767px){
+    .part-three{
+        position: absolute;
+        width: 1px;
+        height: 1px;
+        margin: -1px;
+        border: 0;
+        padding: 0;
+        white-space: nowrap;
+        clip-path: inset(100%);
+        clip: rect(0 0 0 0);
+        overflow: hidden;
+    }
 }
 .workers{
     
@@ -778,6 +955,8 @@ margin-bottom: 8px;
 
         }
 
+   
+
         .footer-logo-p-div{
             margin-bottom: 72px;
             padding-left: 108px;
@@ -796,6 +975,54 @@ margin-bottom: 8px;
        .footer-p{
         width: 264px;
        }
+}
+
+
+@media (min-width: 320px) and (max-width:767px) {
+    .footer-div{
+        display: flex;
+        flex-wrap: wrap;
+        margin-top: 97.5px;
+    }
+    .link-footer{
+        margin-bottom: 17.5px;
+        
+        
+    }
+
+    .footer-logo-p-div{
+        margin-bottom: 72px;
+        padding-left: 80px;
+        padding-right: 80px;
+    }
+    
+    .social-media-footer-p{
+       
+       padding-bottom: 16px;
+      
+    }
+   .form-footer-block{
+        margin-top: 72px;
+        display: flex;
+        flex-wrap: wrap;
+        row-gap: 16px;
+   }
+
+
+
+   .form-footer{
+   
+    flex-direction: column;
+    
+   }
+
+
+
+
+
+   .footer-p{
+    width: 264px;
+   }
 }
 
 .clients{
