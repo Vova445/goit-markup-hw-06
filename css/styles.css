@@ -754,10 +754,15 @@ margin-bottom: 8px;
         .footer-logo-p-div{
             margin-bottom: 72px;
             padding-left: 108px;
+            
         }
         
        .form-footer-block{
             margin-left: 108px;
+       }
+
+       .social-media-block{
+        margin-left: 24px;
        }
 }
 
