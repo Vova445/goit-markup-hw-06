@@ -26,12 +26,11 @@ h1, h2, h3, h4, h5, h6, p{
 }
 
 .menu-toggle {
-    min-height: 40px;
-    min-width: 40px;
+    min-height: 24px;
+    min-width: 24px;
     display: flex;
     align-items: center;
     justify-content: center;
-  
     margin: 0;
     padding: 0;
     background-color: transparent;
@@ -47,10 +46,9 @@ h1, h2, h3, h4, h5, h6, p{
     left: 0;
     width: 100vw;
     height: 100vh;
-    padding: 32px;
-    background-color: #F4F4FD;
+    background-color: #ffffff;
     z-index: 999;
-  
+    overflow: hidden;
     transform: translateX(100%);
     transition: transform 250ms ease-in-out;
   }
@@ -64,23 +62,39 @@ h1, h2, h3, h4, h5, h6, p{
     position: absolute;
     top: 16px;
     right: 16px;
-    background-color: CORNFLOWER;
-    color: #2E2F42;;
-    z-index: 23131233;
+    background-color: #E7E9FC;
+    color: #2E2F42;
+   
   }
 
   .mobile-menu {
-    padding: 0;
+    padding-top: 80px;
     margin: 0;
     list-style: none;
+    
+  }
+  .current-modal{
+    color: #404BBF;
   }
   
-  .mobile-menu .link {
+  .mobile-menu .link-mobile-modal {
     display: block;
-    padding: 10px;
-    color: #fff;
+    padding-bottom: 40px;
+    padding-left: 40px;
+    font-family: Roboto;
+    font-size: 36px;
+    font-weight: 700;
+    line-height: 40px;
+    letter-spacing: 0.02em;
+    text-align: left;
     text-decoration: none;
   }
+
+  .menu-mobile-link{
+    color: #2E2F42;
+  }
+
+
 
 img{
     height: auto;
@@ -417,7 +431,8 @@ margin-bottom: 8px;
     font-weight: 500;
     line-height: 24px;
     letter-spacing: 0.02em;
-    text-align: left;
+    padding-left: 10px;
+  
     width: 396px;
     
    }
@@ -769,9 +784,9 @@ margin-bottom: 8px;
 @media (min-width: 320px) and (max-width: 767px){
     .container {
             min-width: 320px;
-            max-width: 1170px;
-            padding-left: 15px;
-            padding-right: 15px;
+            max-width: 767px;
+            padding-left: 6px;
+            padding-right: 6px;
             margin-left: auto;
             margin-right: auto;
           }
