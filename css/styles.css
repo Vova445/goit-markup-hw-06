@@ -536,6 +536,22 @@ margin-bottom: 8px;
     }
 }
 
+@media (min-width: 320px) and (max-width: 428px){
+    .list-portfolio-one{
+        margin-bottom: 48px;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: flex-start;
+        column-gap: 24px;
+        row-gap: 16px;
+        padding-left: 16px;
+    }
+
+    .list-portfolio-two{
+        padding: 48px 16px; 
+    }
+}
+
 @media screen and (min-width: 1158px) {
     .list-part{
         width: calc((100% - 72px) / 4);
@@ -1512,3 +1528,99 @@ input::placeholder{
     
 }
 
+
+
+
+.address-mobile-modal{
+
+    padding-top: 284px;
+} 
+.menu-container .menu-toggle {
+    position: absolute;
+    top: 24px;
+    right: 24px;
+    background-color: #E7E9FC;
+    color: #2E2F42;
+   
+  }
+
+  .mobile-menu {
+    padding-top: 80px;
+    margin: 0;
+    list-style: none;
+  }
+  .current-modal{
+    color: #404BBF;
+  }
+  
+  .mobile-menu .link-mobile-modal {
+    display: block;
+    padding-bottom: 40px;
+    padding-left: 40px;
+    font-family: Roboto;
+    font-size: 36px;
+    font-weight: 700;
+    line-height: 40px;
+    letter-spacing: 0.02em;
+    text-align: left;
+    text-decoration: none;
+    display: flex;
+    flex-wrap: wrap;
+    row-gap: 40px;
+  }
+
+
+  
+  .menu-mobile-link{
+    color: #2E2F42;
+  }
+
+  @media (min-width: 320px) and (max-width:428px){
+    .block-header{
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+    }
+  }
+
+
+.social-networks-modal{
+
+    display: flex;
+    justify-content: center;
+    gap: 56px;
+    margin-top: 48px;
+    margin-left: 40px;
+    margin-right: 60px;
+}
+  .address-modal{
+    padding-left: 40px;
+    padding-right: 35px;
+    display: flex;
+    flex-wrap: wrap;
+    row-gap: 40px;
+  }
+
+  .tel-modal-mobile-link{
+
+    font-family: Roboto;
+    font-size: 36px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 40px; 
+    letter-spacing: 0.72px;
+    text-transform: capitalize;
+    color: #4D5AE5
+  }
+
+
+  .address-modal-mobile-link{
+    font-family: Roboto;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 24px; 
+    letter-spacing: 0.4px;
+    color: #434455;
+   
+  }
