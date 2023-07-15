@@ -4,8 +4,16 @@ body{
     background-color: #ffffff;
 }
 
-
-
+@media (min-width: 320px) and (max-width: 428px) {
+    .modal-window{
+        width: 90%;
+    }
+}
+@media screen and (min-width: 428px) {
+    .modal-window{  
+        width: 408px;
+}
+}
 @media screen and (min-width: 767px){
     .menu-toggle{
         position: absolute;
@@ -243,7 +251,7 @@ a{
             background-position: top 70px;
             margin: 0 auto;
             height: 432px;
-    }    
+    }
     
 
     .part-one .main-title{
@@ -534,19 +542,20 @@ margin-bottom: 8px;
     }
 }
 
-@media (min-width: 320px) and (max-width: 428px){
+@media (min-width: 320px) and (max-width: 767px){
     .list-portfolio-one{
         margin-bottom: 48px;
         display: flex;
         flex-wrap: wrap;
         justify-content: flex-start;
-        column-gap: 24px;
+        
         row-gap: 16px;
         padding-left: 16px;
     }
 
     .list-portfolio-two{
         padding: 48px 16px; 
+        justify-content: center;
     }
 }
 
@@ -945,7 +954,7 @@ margin-bottom: 8px;
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%) scale(1);
-    width: 408px;
+   
     min-height: 584px;
     background: #fcfcfc;
     box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 2px 1px rgba(0, 0, 0, 0.2);
