@@ -256,6 +256,8 @@ a{
             margin: 0 auto;
             height: 432px;
     }
+
+
     
 
     .part-one .main-title{
@@ -326,12 +328,22 @@ margin-bottom: 8px;
     font-weight: 400;
 }
 
+@media screen and (min-width: 1158px) {
+    .team{
+        padding-top: 120px;
+        padding-bottom: 120px;
+    }
+}
 
+@media screen and (max-width: 1157px) {
+    .team{
+        padding-top: 96px;
+        padding-bottom: 96px;
+    }
+}
 
 .team{
     background-color: #F4F4FD;
-    padding-top: 120px;
-    padding-bottom: 120px;
 }
 .team h3{
     text-align: center;
@@ -547,6 +559,27 @@ margin-bottom: 8px;
     }
 }
 
+@media (min-width: 428px) and (max-width: 767px) {
+    .p-overlay{
+            line-height: 24px;
+            letter-spacing: 0.32px;
+            margin-top: 40px;
+            padding-left: 32px;
+            width: 296px;
+    }
+    
+}
+
+@media (min-width: 320px) and (max-width: 428px) {
+    .p-overlay{
+
+    line-height:  24px;
+    letter-spacing: 0.32px;
+    margin-top: 20px;
+    padding-left: 12px;
+    max-width: 296px;
+}
+}
 @media (min-width: 320px) and (max-width: 767px){
     .list-portfolio-one{
         margin-bottom: 48px;
@@ -592,16 +625,12 @@ margin-bottom: 8px;
     .clients{
         display: flex;
         flex-wrap: wrap;
-        
         row-gap: 72px;
-        padding-left: 108px;
-        padding-right: 108px;
-        margin-bottom: 96px;
+        justify-content: center;
     }
     .list-part-five{
-        width: calc((100% - 72px) / 3);
+        width: 168px;
         height: 88px;
-        margin: auto;
         
     }
 
@@ -776,7 +805,7 @@ margin-bottom: 8px;
 }
 
 .container{
-    width: 1158px;
+    max-width: 1158px;
    margin: 0 auto;
    padding-left: 16px;
    padding-right: 16px;
@@ -786,7 +815,7 @@ margin-bottom: 8px;
 /* Table */
  @media (min-width: 767px) and (max-width: 1157px){
     .container {
-        width: 768px;
+        max-width: 768px;
         padding-left: 16px;
         padding-right: 16px;
       }
@@ -810,7 +839,7 @@ margin-bottom: 8px;
 @media (min-width: 320px) and (max-width: 767px){
     .container {
             
-            width: 320px;
+            max-width: 428px;
             padding-left: 16px;
             padding-right: 16px;
           
@@ -1140,7 +1169,7 @@ margin-bottom: 8px;
     justify-content: center;
 }
    .form-footer{
-    display: flex;
+    
     flex-direction: column;
     gap: 16px;
     align-items: center;
@@ -1308,18 +1337,20 @@ margin-bottom: 8px;
     transform: translateY(0);
 }
   
-
-.p-overlay{
-    line-height: 24px;
-    letter-spacing: 0.32px;
-    margin-top: 40px;
-    padding-left: 32px;
-    display: flex;
-    width: 296px;
-    flex-direction: column;
-    flex-shrink: 0;
-    color: #F4F4FD;
+@media screen and (min-width: 1157px) {
+    .p-overlay{
+        line-height: 24px;
+        letter-spacing: 0.32px;
+        margin-top: 40px;
+        padding-left: 32px;
+        display: flex;
+        width: 296px;
+        flex-direction: column;
+        flex-shrink: 0;
+        color: #F4F4FD;
+    }
 }
+
 
 
 @media screen and (min-width: 1158px){
@@ -1680,3 +1711,14 @@ input::placeholder{
         padding-right: 16px;
     }
 }
+
+
+@media (min-width: 320px) and (max-width: 767px){
+    .footer-sent-button{
+        margin-left: auto;
+        margin-right: auto;
+        margin-top: 16px;
+    }
+}
+
+
